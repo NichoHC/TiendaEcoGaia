@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EcoGaiaProducto</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="CSS/style-product.css">
+</head>
+<body>
+        <header>
+            <section id="Inicio">
+                <nav class="container-nav">
+                        <div class="nav">
+                            <div class="nav-content">
+                                <input type="checkbox" id="chk1">
+                                <div class="logo">
+                                    <img src="img/logo2.png" alt="Logo">
+                                </div>
+                                <div class="search-box">
+                                    <form id="formBuscar">
+                                    <input type="text" name="search" id="srch" placeholder="Busca un producto">
+                                    <button class="button-search" type="submit"><i class="fa fa-search"></i></button>
+                                    <button class="button-x" type="button" id="btnBorrar"><i class="fa-solid fa-x"></i></button>
+                                    </form>
+                                    <ul id="sugerencias" class="sugerencias-lista"></ul>
+                                </div>
+                                <ul class="menu-hambur">
+                                    <li><a href="index.html">Inicio</a></li>
+                                    <li><a href="tienda.html">TiendaEco</a></li>
+                                    <li><a href="#">Sobre Nosotros</a></li>
+                                    <li><a href="#">Contacto</a></li>
+                                </ul>
+                                <div class="menu">
+                                    <label for="chk1"><i class="fa fa-bars"></i></label>
+                                </div>
+                            </div>
+                        </div>
+                </nav>
+            </section>
+        </header>
+
+    <main>
+        <section id="detalle-producto" class="detalle-producto">
+        <!-- Aquí se insertará la info -->
+
+        
+        </section>
+
+        <!-- CARRITO DE COMPRAS -->
+        <section>
+            <div class="carrito">
+                <button class="btn-carrito"><i class="fa-solid fa-cart-shopping"></i></button>
+                <span id="contador-carrito" class="contador">0</span>
+            </div>
+            <div id="panel-carrito" class="panel-carrito oculto">
+            <h2>Tu Carrito</h2>
+            <div id="carrito-items"></div>
+            <button id="cerrar-carrito" class="cerrar-carrito">Cerrar</button>
+            <button id="comprar-carrito" class="comprar-carrito">Comprar</button>
+            </div>
+        </section>
+    </main>
+
+
+
+    </main>
+
+
+    <footer>
+                <div class="container-footer">
+                    <div class="footer-logo">
+                    <img src="img/logo2.png" alt="EcoGaia Logo">
+                    </div>
+                    <p class="copyright">
+                    &copy; 2025 EcoGaia. Todos los derechos reservados.
+                    </p>
+                    <div class="redes-sociales">
+                    <a href="https://www.instagram.com/tiendaecogaia/?hl=es" target="_blank">
+                        <img src="img/footer/instagram-brands.svg" alt="Instagram">
+                    </a>
+                    <a href="https://api.whatsapp.com/send/?phone=573192985807&text=Me+gustar%C3%ADa+adquirir+un+producto+de+ecogaia&type=phone_number&app_absent=0" target="_blank">
+                        <img src="img/footer/whatsapp-brands.svg" alt="WhatsApp">
+                    </a>
+                    </div>
+                </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+    <script src="JS/carrito.js"></script>
+    <script src="JS/detalle.js"></script>
+    <script src="JS/filtro.js"></script>
+</body>
+</html>

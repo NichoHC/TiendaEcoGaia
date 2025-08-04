@@ -1,0 +1,228 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Segoe UI", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+}
+
+main {
+    margin: 0 10%;
+    padding: 150px 0 0 0;
+
+}
+
+h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Estructura de la tienda */
+.contenido-tienda {
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+/* Panel de filtros */
+.panel-filtros {
+    flex: 1;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 1.5rem;
+    border-radius: 10px;
+    min-width: 220px;
+    opacity: 0;
+    transform: translateX(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    display: none; /* Oculto al iniciar */
+}
+
+.panel-filtros.visible {
+    display: block;
+    opacity: 1;
+    transform: translateX(0);
+}
+.filtros-opciones {
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+}
+
+.filtros-opciones label {
+    font-weight: bold;
+}
+
+.filtros-opciones input,
+.filtros-opciones select {
+    padding: 0.5rem;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+.btn-clear {
+    margin-top: 1rem;
+    background-color: #dc3545;
+    color: white;
+    border: none;
+    padding: 0.5rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-clear:hover {
+    background-color: #c82333;
+}
+
+/* Contenido principal */
+.container-shop {
+    flex: 3;
+    min-width: 300px;
+}
+
+/* Encabezado y botón filtros */
+.filter {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+}
+
+.btn-filter {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-filter:hover {
+    background-color: #218838;
+}
+
+/* Productos */
+.contenedor-productos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+    gap: 1.5rem;
+    padding: 1rem 0;
+}
+
+.producto {
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 12px;
+    padding: 1rem;
+    transition: box-shadow 0.3s;
+}
+
+.producto:hover {
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.producto img {
+    width: 100%;
+    height: 180px;
+    object-fit: contain;
+    border-radius: 8px;
+}
+
+.producto h3 {
+    font-size: 1.2rem;
+    margin: 0.5rem 0;
+}
+
+.producto p {
+    font-size: 0.95rem;
+    color: #666;
+    margin-bottom: 0.5rem;
+}
+
+.producto .precio {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.producto div {
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin-top: 0.5rem;
+}
+
+.btn-preview-Tienda,
+.btn-Agregar-Carrito {
+    flex: 1;
+    padding: 0.4rem 0.6rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+}
+
+.btn-preview-Tienda {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-preview-Tienda:hover {
+    background-color: #0056b3;
+}
+
+.btn-Agregar-Carrito {
+    background-color: #ffc107;
+    color: black;
+}
+
+.btn-Agregar-Carrito:hover {
+    background-color: #e0a800;
+}
+
+/* Mensaje de no resultados */
+.no-result {
+    text-align: center;
+    font-size: 1.1rem;
+    color: #888;
+    margin-top: 2rem;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+.contenido-tienda {
+    flex-direction: column;
+}
+
+.panel-filtros {
+    width: 100%;
+}
+
+.container-shop {
+    width: 100%;
+}
+
+.filter {
+    gap: 1rem;
+    align-items: flex-start;
+}
+
+}
+
+@media (min-width:1400px) {
+
+    .contenedor-productos {
+
+    grid-template-columns: repeat(3, minmax(220px, 1fr));
+    
+}
+    
+}

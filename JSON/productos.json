@@ -1,0 +1,234 @@
+[
+  {
+    "id": 1,
+    "nombre": "🌿 CREMA DENTAL NATURAL MENTA",
+    "precio": 25000,
+    "precio2": 45000,
+    "gramos":120,
+    "gramos2":240,
+    "imagen": "img_Products/producto1.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Menta fresca | Aceite de coco | Té verde & Romero",
+    "descripcion": "Cuida tu sonrisa de forma natural con nuestra crema dental ecológica, formulada con ingredientes vegetales que limpian, protegen y refrescan sin dañar tu cuerpo ni el planeta. ¡Libre de flúor, sulfatos y químicos innecesarios!"
+    ,"Frases":["🍃 Vegana y cruelty-free",
+    "🍃 Envase reutilizable y reciclable",
+    "🍃 Sin flúor, sin SLS, sin microplásticos",
+    "🍃 Incluye paleta de bambú para aplicación higiénica"]
+  },
+  {
+    "id": 2,
+    "nombre": "🖤 CREMA DENTAL CARBÓN ACTIVADO",
+    "precio": 32000,
+    "gramos":120,
+    "imagen": "img_Products/producto2.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Carbón vegetal | Neem | Tulsi (albahaca sagrada)",
+    "descripcion": "Purifica tu sonrisa de forma natural con nuestra crema dental de carbón activado, formulada con plantas medicinales y minerales que limpian profundamente, desintoxican y blanquean sin químicos agresivos."
+    ,"Frases":["🍃 Vegana y cruelty-free",
+    "🍃 Envase reutilizable y reciclable",
+    "🍃 Sin flúor, sin triclosán, sin SLS",
+    "🍃 Carbón activado: absorbe impurezas, blanquea sin dañar el esmalte"]
+  },
+  {
+    "id": 3,
+    "nombre": "🌼 CREMA DENTAL MANZANILLA",
+    "precio": 27000,
+    "gramos":125,
+    "imagen": "img_Products/producto3.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Suavidad herbal | Ideal para encías sensibles",
+    "descripcion": "Nuestra crema dental de manzanilla está formulada con ingredientes suaves y calmantes que limpian eficazmente sin agredir el esmalte ni las encías. Ideal para niños o personas con sensibilidad bucal."
+    ,"Frases":["🍃 Vegana y cruelty-free",
+    "🍃 Envase reutilizable y reciclable",
+    "🍃 Apta para tratamientos homeopáticos",
+    "🍃 Extracto de manzanilla orgánica: antiinflamatoriay protectora"]
+  },
+  {
+    "id": 4,
+    "nombre": "🌱 DESODORANTE NATURAL EN CREMA",
+    "precio": 26000,
+    "gramos":100,
+    "imagen": "img_Products/producto4.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Sin aluminio | Sin químicos agresivos",
+    "descripcion": "Nuestro desodorante en crema sin aluminio protege contra el mal olor durante todo el día sin bloquear la transpiración natural. Una fórmula suave pero efectiva, ideal para pieles sensibles y estilos de vida conscientes."
+    ,"Frases":["🍃 Vegana y cruelty-free",
+    "🍃 Envase reutilizable y reciclable",
+    "🍃 Sin aluminio, sin parabenos, sin fragancias sintéticas",
+    "🍃 Aplicación con la yema de los dedos, textura cremosa y fácil de absorber"]
+  },
+
+  {
+    "id": 5,
+    "nombre": "🪥 CEPILLO DENTAL EN BAMBÚ",
+    "precio": 9000,
+    "imagen": "img_Products/producto5.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Cerdas suaves y medias | 100% ecológicos | Compostables",
+    "descripcion": "Nuestros cepillos dentales de bambú son la alternativa perfecta al plástico tradicional. Con un diseño ergonómico y natural, están elaborados con mango de bambú biodegradable y cerdas de nylon libre de BPA, ideales para cuidar tu salud bucal y la del planeta."
+    ,"Frases":["🍃 Vegana y cruelty-free",
+    "🍃 Empaque reciclable y sin plástico",
+    "🍃 Duran igual que un cepillo convencional (3 meses)"],
+    "colores":[
+    "rojo","azul","morado","rosa","verde"
+    ]
+  }
+
+  ,
+
+  {
+    "id": 6,
+    "nombre": "🧵 SEDA DENTAL ECOLÓGICA",
+    "precio": 16500,
+    "imagen": "img_Products/producto6.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Natural | compostable | libre de plástico",
+    "descripcion": "Completa tu rutina de higiene bucal con nuestra seda dental ecológica hecha de fibra de bambú. Es tan eficaz como la convencional, pero sin contaminar el planeta. Perfecta para limpiar entre los dientes con suavidad y sin residuos tóxicos."
+    ,"Frases":["🍃 30 Metros de fibra de bambú natural",
+    "🍃 Presentación en frasco de vidrio reutilizable",
+    "🍃 Compostable y libre de BPA"]
+  }
+
+    ,
+
+  {
+    "id": 7,
+    "nombre": "🦷 LIMPIADOR DE LENGUA",
+    "precio": 16500,
+    "imagen": "img_Products/producto7.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Acero inoxidable | Higiene profunda y natural",
+    "descripcion": "Nuestro limpiador de lengua ecológico elimina bacterias, toxinas y mal aliento de forma eficaz y natural, sin plásticos ni químicos."
+    ,"Frases":["🍃 Reutilizable y 100% libre de plástico",
+    "🍃 Forma ergonómica para un uso cómodo y seguro",
+    "🍃 Materiales antibacterianos de larga duración"],
+    "colores":[
+    "plateado","oro","rosa","dorado"
+    ]
+  }
+    ,
+
+  {
+    "id": 8,
+    "nombre": "🪒 MAQUINA DE AFEITAR PREMIUM",
+    "precio": 18000,
+    "imagen": "img_Products/producto8.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Cero residuos | Afeitado de precisión",
+    "descripcion": "Redescubre el arte del afeitado con nuestra máquina de afeitar reutilizable premium, una alternativa ecológica, duradera y sofisticada. Diseñada para quienes valoran la calidad, el diseño y el cuidado del planeta."
+    ,"Frases":["🍃 Cuerpo de acero inoxidable",
+    "🍃 Compatible con cuchilla Minora",
+    "🍃 Incluye estuche de fique para guardado"]
+    ,
+    "colores":[
+    "plateado"
+    ]
+  }
+      ,
+
+  {
+    "id": 9,
+    "nombre": "💮 POLVO CORPORAL NATURAL",
+    "precio": 20000,
+    "imagen": "img_Products/producto9.png",
+    "categoria": "Cuidado Diario",
+    "descripcion-breve": "Fresco, absorbente y aromático | Sin talco ni químicos",
+    "descripcion": "Elaborado con ingredientes vegetales, absorbe la humedad, suaviza la piel y deja un aroma sutil y elegante. Perfecto para el uso diario, después del baño, o como desodorante seco."
+    ,"Frases":["🍃 Ideal para axilas, pies, pliegues o post afeitado",
+    "🍃 Myrrah (mirra): propiedades antimicrobianas",
+    "🍃 Almidón de maíz y arcilla blanca: absorben naturalmente la humedad"]
+  }
+
+  ,
+  {
+    "id": 10,
+    "nombre": "🧼JABONES NATURALES",
+    "precio": 12000,
+    "imagen": "img_Products/producto10.png",
+    "categoria": "JABONES",
+    "descripcion-breve": "PARA CUERPO Y ROSTRO | Con aceites vegetales",
+    "descripcion": "Elaborados artesanalmente con aceites vegetales, arcillas, extractos de plantas y aceites esenciales puros. Sin detergentes ni químicos agresivos, limpian tu piel con suavidad y respetan su equilibrio natural"
+    ,"Frases":["🍃 Presentación de 120gr aprox.",
+    "🍃 Libres de parabenos y químicos agresivos.",
+    "🍃 De diferentes ingredientes para cada necesidad."],
+    "tipo": ["Jabón de Rosas", "Jabón de Pepino", "Jabón de Avena","Jabón de Sal Marina","Jabón de Aceite de Oliva","Jabón de Cúrcuma","Jabón de Carbón Activado","Jabón de Cannabis","Jabón de Arroz","Jabón de Calendula","Jabón de Manzanilla"],
+    "descripcionIndv": [
+    "Con vitamina C y propiedades antioxidantes, nutre e hidrata la piel, dejándola suave y lisa.",
+    "Revitaliza ehidrata la piel, con vitamina E que ayuda a eliminar impurezas.",
+    "Nutre y exfolia la piel de manera delicada.",
+    "Exfolia y revitaliza la piel dando un efecto relajante y purificante.",
+    "Nutre e hidrata intensamente la piel, dejando un efecto radiante.",
+    " Especial para tratamiento de enfermedades de la piel, antioxidante y antiinflamatorio.",
+    "Ayuda a remover impurezas y controlar el acné. Ideal para piel mixta o grasa.",
+    "Hidrata, regenera, revitaliza, alivia y ayuda en el control de alergias de la piel.",
+    "Exfolia y aclara la piel, dejándola suave, lisa y tersa.",
+    "Ideal para pieles sensibles, limpia con suavidad aportando hidratción y nutrición.",
+    "Antiséptico, desinflamante, ideal para pieles sensibles y delicadas."
+    
+  ],
+    "imagenesTipo": [
+    "img_Products/productoJ1.png",
+    "img_Products/productoJ2.png",
+    "img_Products/productoJ3.png",
+    "img_Products/productoJ4.png",
+    "img_Products/productoJ5.png",
+    "img_Products/productoJ6.png",
+    "img_Products/productoJ7.png",
+    "img_Products/productoJ8.png",
+    "img_Products/productoJ9.png",
+    "img_Products/productoJ10.png",
+    "img_Products/productoJ11.png"
+  ]
+  }
+  ,
+  {
+    "id": 11,
+    "nombre": "🥤VASO PLEGABLE DE SILICONA",
+    "precio": 22000,
+    "imagen": "img_Products/producto11.png",
+    "categoria": "ESTILO DE VIDA",
+    "descripcion-breve": "Llévalo contigo | Reutilizable | Compacto y práctico",
+    "descripcion": "Dile adiós a los vasos desechables con nuestro vaso plegable de silicona, diseñado para acompañarte a donde vayas. Ideal para café, jugos, o agua, este vaso reutilizable es resistente, seguro y cabe en cualquier bolso."
+    ,"Frases":["🍃 Silicona grado alimenticio (libre de BPA y tóxicos)",
+    "🍃 Plegable y compacto",
+    "🍃Apto para bebidas calientes o frías",
+  "🍃 Capacidad: 350 ml / 12 oz"],
+    "colores":[
+    "morado","naranja","azul","rosa"
+    ]
+  }
+  ,
+  {
+    "id": 12,
+    "nombre": "🪄PITILLO PLEGABLE REUTILIZABLE",
+    "precio": 25000,
+    "imagen": "img_Products/producto12.png",
+    "categoria": "ESTILO DE VIDA",
+    "descripcion-breve": "Llévalo contigo | Reutilizable | Compacto y práctico",
+    "descripcion": "Dile adiós a los vasos desechables con nuestro vaso plegable de silicona, diseñado para acompañarte a donde vayas. Ideal para café, jugos, o agua, este vaso reutilizable es resistente, seguro y cabe en cualquier bolso."
+    ,"Frases":["🍃 Silicona grado alimenticio (libre de BPA y tóxicos)",
+    "🍃 Plegable y compacto",
+    "🍃Apto para bebidas calientes o frías",
+  "🍃 Capacidad: 350 ml / 12 oz"],
+    "colores":[
+    "morado","naranja","azul","rosa"
+    ]
+  }
+  ,
+  {
+    "id": 13,
+    "nombre": "🥢KIT 3 PITILLOS DE ACERO",
+    "precio": 24000,
+    "imagen": "img_Products/producto13.png",
+    "categoria": "ESTILO DE VIDA",
+    "descripcion-breve": "Duraderos | Para todo tipo de bebidas",
+    "descripcion": "Reemplaza para siempre los pitillos desechables con este kit de 3 pitillos reutilizables de acero inoxidable. Una opción práctica, duradera y 100% libre de residuos plásticos."
+    ,"Frases":["🍃 🍃 Incluye: Pitillo recto estándar, pitillo curvo, pitillo ancho tipo smoothie, cepillo limpiador, funda en fique.",
+    "🍃 Sin sabores metálicos ni tóxicos.",
+    "🍃 Acero inoxidable de grado alimenticio.",
+  "🍃 Estuche ideal para llevar en la mochila."],
+    "colores":[
+    "arcoiris","plateado"
+    ]
+  }
+]

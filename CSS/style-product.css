@@ -1,0 +1,160 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.detalle-container {
+    max-width: 500px;
+    margin: 0 auto;
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.detalle-container img {
+  width: 100%;
+  max-height: 300px;
+  object-fit: contain;
+  border-radius: 12px;
+  margin-bottom: 16px;
+  background-color: #ddd;
+}
+
+.detalle-container h2 {
+  font-size: 24px;
+  margin: 12px 0;
+  color: #222;
+  text-align: left;
+}
+
+.subtitle{
+    text-align: left;
+}
+
+.detalle-container p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  text-align: left;
+}
+
+.detalle-container p strong {
+  color: #000;
+}
+
+@media (min-width: 768px) {
+  .detalle-container {
+    max-width: 700px;
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    text-align: left;
+  }
+
+  .detalle-container img {
+    width: 100%;
+    height: 300px;
+    max-height: none;
+    object-fit: contain;
+  }
+
+  .detalle-container h2 {
+    font-size: 28px;
+  }
+
+  .detalle-container p {
+    font-size: 18px;
+  }
+}
+
+.detalle-container ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 0;
+}
+
+
+
+
+.cantidad-container {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.cantidad-container input {
+    width: 60px;
+    text-align: center;
+    font-size: 1rem;
+    padding: 5px;
+    border-radius: 5px;
+    
+}
+
+.cantidad-container button {
+    background-color: #8DCB88;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.cantidad-container button:hover {
+    background-color: #75B375;
+}
+
+
+
+
+.container-presentacion p,.btn-presentacion{
+  margin:40px 0;
+}
+
+
+
+/* BOTONES PRINCIPALES */
+.btn-principal {
+  background-color: #28a745;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 12px;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn-principal:hover {
+  background-color: #218838;
+}
+
+
+
+
+.presentacion-btn:first-child{
+  margin-right: 20px;
+}
+
+/* BOTÓN SECUNDARIO COMO ENLACE */
+.btn-secundario {
+  display: inline-block;
+  text-align: center;
+  background-color: #6c757d;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 12px;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.btn-secundario:hover {
+  background-color: #5a6268;
+}
