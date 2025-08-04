@@ -168,13 +168,12 @@ main {
     .carousel,
     .carousel-inner,
     .carousel-item {
-        height: 400px;
+        height: 600px;
     }
 
     .carousel-item img {
     width: 100%;
     height: 100%;
-    object-fit: cover;
     display: block;
 }
 }
