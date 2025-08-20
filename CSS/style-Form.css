@@ -1,6 +1,7 @@
     .container-form {
-    margin:  0 auto;
-    padding-top: 120px;
+    display: flex;
+  justify-content: center;
+  padding-top: 20px;
     }
     .formulario {
       background: #fff;

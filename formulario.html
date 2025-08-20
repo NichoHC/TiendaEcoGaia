@@ -44,42 +44,37 @@
 
     </header>
 
-  <div class="container-form">
-  <!-- Formulario HTML -->
-  <form class="formulario" method="POST" action="formulario.php">
-    <h2>Contáctanos</h2>
-
-    <input type="text" name="nombre" placeholder="Tu nombre" required>
-    <input type="email" name="correo" placeholder="Tu correo" required>
-    <input type="tel" name="telefono" placeholder="Tu teléfono (opcional)" pattern="[0-9+ ]+">
-
-    <select name="tipo_consulta" required>
-      <option value="">Selecciona el motivo</option>
-      <option value="producto">Consulta sobre un producto</option>
-      <option value="pedido">Consulta sobre un pedido</option>
-      <option value="devolucion">Solicitud de devolución</option>
-      <option value="otro">Otro</option>
-    </select>
-
-    
-
-    <select name="como_conocio" required>
-      <option value="">¿Cómo nos conociste?</option>
-      <option value="redes">Redes sociales</option>
-      <option value="buscador">Buscador (Google, Bing, etc.)</option>
-      <option value="recomendacion">Recomendación de un amigo</option>
-      <option value="otro">Otro</option>
-    </select>
-
-    <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
-
-    <!-- <label class="label-edit">
-      <input type="checkbox" name="acepto" required>
-      <p>Acepto la <a href="politica-privacidad.html" target="_blank">política de privacidad</a></p> </label> -->
-    <button id="miBoton" type="submit">Enviar</button>
-
-   
-  </form>
+  <main>
+      <div class="container-form">
+      <!-- Formulario HTML -->
+      <form class="formulario" method="POST" action="formulario.php">
+        <h2>Contáctanos</h2>
+        <input type="text" name="nombre" placeholder="Tu nombre" required>
+        <input type="email" name="correo" placeholder="Tu correo" required>
+        <input type="tel" name="telefono" placeholder="Tu teléfono (opcional)" pattern="[0-9+ ]+">
+        <select name="tipo_consulta" required>
+          <option value="">Selecciona el motivo</option>
+          <option value="producto">Consulta sobre un producto</option>
+          <option value="pedido">Consulta sobre un pedido</option>
+          <option value="devolucion">Solicitud de devolución</option>
+          <option value="otro">Otro</option>
+        </select>
+      
+        <select name="como_conocio" required>
+          <option value="">¿Cómo nos conociste?</option>
+          <option value="redes">Redes sociales</option>
+          <option value="buscador">Buscador (Google, Bing, etc.)</option>
+          <option value="recomendacion">Recomendación de un amigo</option>
+          <option value="otro">Otro</option>
+        </select>
+        <textarea name="mensaje" rows="4" placeholder="Escribe tu mensaje" required></textarea>
+        <!-- <label class="label-edit">
+          <input type="checkbox" name="acepto" required>
+          <p>Acepto la <a href="politica-privacidad.html" target="_blank">política de privacidad</a></p> </label> -->
+        <button id="miBoton" type="submit">Enviar</button>
+      
+      </form>
+  </main>
 </div>
     <footer>
                 <div class="container-footer">
